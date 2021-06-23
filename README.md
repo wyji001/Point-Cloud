@@ -4,7 +4,7 @@
 
 ### Generate point cloud
 
-Use POINTNET files to generate point cloud data for proteins and ligands.All data should remove solvents, metals and ions. And use openbabel to add polar hydrogen (--AddPolarH)
+Use POINTNET files to generate point cloud data for proteins and ligands.All data must be in PDB format. All data should remove solvents, metals and ions. And use openbabel to add polar hydrogen (--AddPolarH)
 
   ```sh
   ./POINTNET {protein_path} {ligand_path} {out_path}
@@ -26,3 +26,4 @@ Use POINTNET files to generate point cloud data for proteins and ligands.All dat
    ```sh
    python pred.py --file ./example/5c2h_11.09 --model PointTransformer
    ```
+Other model parameters can be downloaded [here](https://drive.google.com/file/d/1VzAqTEoxFd4hgiAoWvy6cG80Ct5AK2AY/view?usp=sharing)
