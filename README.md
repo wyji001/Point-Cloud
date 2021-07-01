@@ -37,9 +37,9 @@ Other model parameters can be downloaded [here](https://drive.google.com/file/d/
 
 The machine learning script, as well as the training and test data, are available via the URL below.
 
-PDBBind-2007 [here](https://drive.google.com/file/d/1b7XZqEFIBdzLcVakjCItXvyaXRMNLsN5/view?usp=sharing)
-PDBBind-2013 [here](https://drive.google.com/file/d/1NXi7RybbJ6Q5IFR0CZMyMPtskFZvP92m/view?usp=sharing)
-PDBBind-2016 [here](https://drive.google.com/file/d/1Ut10Bkd7cRwTwjBOp0nq9rfLwS8kkhd4/view?usp=sharing)
+PDBBind-2007 [here](https://drive.google.com/file/d/1b7XZqEFIBdzLcVakjCItXvyaXRMNLsN5/view?usp=sharing)\n
+PDBBind-2013 [here](https://drive.google.com/file/d/1NXi7RybbJ6Q5IFR0CZMyMPtskFZvP92m/view?usp=sharing)\n
+PDBBind-2016 [here](https://drive.google.com/file/d/1Ut10Bkd7cRwTwjBOp0nq9rfLwS8kkhd4/view?usp=sharing)\n
 
 
 ### Train Data
