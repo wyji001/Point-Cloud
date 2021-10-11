@@ -29,28 +29,26 @@ Use POINTNET files to generate point cloud data for proteins and ligands.All dat
    ```sh
    python pred.py --file ./example/5c2h_11.09 --model PointTransformer
    ```
-Other model parameters can be downloaded [here](https://drive.google.com/file/d/1VzAqTEoxFd4hgiAoWvy6cG80Ct5AK2AY/view?usp=sharing)
+Other model parameters can be downloaded [here](https://drive.google.com/file/d/1Sw-R0S2grtUVuGt8znFJHFaV6YP20Nsm/view?usp=sharing)
 
 
-### Machine Learn
+### Machine Learn data
 
 
 The machine learning script, as well as the training and test data, are available via the URL below.
 
-PDBBind-2007 [here](https://drive.google.com/file/d/1b7XZqEFIBdzLcVakjCItXvyaXRMNLsN5/view?usp=sharing)  
+Feature and script  [here](https://drive.google.com/file/d/1vZVD9JJI91omPBoQ9xowwsmzaSrVDsFf/view?usp=sharing)  
+
+model for extract feature [here](https://drive.google.com/file/d/1648W5aGGBukxh-H3_PqlbTYAl4yZaaJV/view?usp=sharing)
   
-PDBBind-2013 [here](https://drive.google.com/file/d/1NXi7RybbJ6Q5IFR0CZMyMPtskFZvP92m/view?usp=sharing)  
-  
-PDBBind-2016 [here](https://drive.google.com/file/d/1Ut10Bkd7cRwTwjBOp0nq9rfLwS8kkhd4/view?usp=sharing)  
+
+### PointCloud Data
 
 
-### Train Data
+Download the PDBBind all data and Bigdata point cloud data using the URL below.
+
+PDBBind all data     [here](https://drive.google.com/drive/folders/1XiuaIM7f1lB_H2o46VCH4apBaxFYbGOn?usp=sharing)
 
 
-Download the PDBBind-2016 Refine set and Bigdata point cloud data using the URL below.
-
-PDBBind-2016 Refine set     [here](https://drive.google.com/file/d/1ylh8UsBsI95AVSRXWRPGCMClZ2a4iZdO/view?usp=sharing)
-
-PDBBind-2016 Bigdata        [here](https://drive.google.com/file/d/16YiLhJABX8l89HwVci8of3pT6bBKxfVq/view?usp=sharing)
 
 

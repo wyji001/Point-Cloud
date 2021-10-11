@@ -271,37 +271,6 @@ class TransitionDown(nn.Module):
 
     def forward(self, xyz, points):
         return self.sa(xyz, points)
-class TransitionUp(nn.Module):
-    def __init__(self, dim1, dim2, dim_out):
-        class SwapAxes(nn.Module):
-            def __init__(self):
-                super().__init__()
-
-            def forward(self, x):
-                return x.transpose(1, 2)
-
-        super().__init__()
-        self.fc1 = nn.Sequential(
-            nn.Linear(dim1, dim_out),
-            SwapAxes(),
-            nn.BatchNorm1d(dim_out),  # TODO
-            SwapAxes(),
-            nn.ReLU(),
-        )
-        self.fc2 = nn.Sequential(
-            nn.Linear(dim2, dim_out),
-            SwapAxes(),
-            nn.BatchNorm1d(dim_out),  # TODO
-            SwapAxes(),
-            nn.ReLU(),
-        )
-        self.fp = PointNetFeaturePropagation(-1, [])
-
-    def forward(self, xyz1, points1, xyz2, points2):
-        feats1 = self.fc1(points1)
-        feats2 = self.fc2(points2)
-        feats1 = self.fp(xyz2.transpose(1, 2), xyz1.transpose(1, 2), None, feats1.transpose(1, 2)).transpose(1, 2)
-        return feats1 + feats2
 class Backbone(nn.Module):
     def __init__(self, cfg):
         super().__init__()
